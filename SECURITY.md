@@ -9,4 +9,4 @@
 
 ## Reporting a Vulnerability
 
-Report via: aouniradouan@gmail.com
+Report to : aouniradouan@gmail.com
