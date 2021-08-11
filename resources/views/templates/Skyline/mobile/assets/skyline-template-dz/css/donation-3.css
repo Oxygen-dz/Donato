@@ -1,0 +1,696 @@
+.pt30 {
+  padding-top: 30px;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.pt40 {
+  padding-top: 40px;
+}
+
+.pb40 {
+  padding-bottom: 40px;
+}
+
+.pt60 {
+  padding-top: 60px;
+}
+
+.pb60 {
+  padding-bottom: 60px;
+}
+
+.pt70 {
+  padding-top: 70px;
+}
+
+.pb70 {
+  padding-bottom: 70px;
+}
+
+.pt130 {
+  padding-top: 130px;
+}
+
+.pb130 {
+  padding-bottom: 130px;
+}
+
+.pt150 {
+  padding-top: 150px;
+}
+
+.pb150 {
+  padding-bottom: 150px;
+}
+
+.pt180 {
+  padding-top: 180px;
+}
+
+.pb180 {
+  padding-bottom: 180px;
+}
+
+.pt200 {
+  padding-top: 200px;
+}
+
+.pb200 {
+  padding-bottom: 200px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.ugf-wraper {
+  background: url(../images/bg/donation-3-bg.jpg) no-repeat center left;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ugf-donation {
+  padding: 50px 0;
+}
+
+.ugf-donation .logo {
+  margin-bottom: 70px;
+}
+
+.ugf-donation h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.55;
+  display: inline-block;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.ugf-donation form .form-block {
+  margin-bottom: 55px;
+}
+
+.ugf-donation form .form-block.mb0 {
+  margin-bottom: 0;
+}
+
+.ugf-donation form .form-block .block-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+
+.ugf-donation form label {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.ugf-donation form .amount-select {
+  margin-bottom: 15px;
+}
+
+.ugf-donation form .amount-select .amount-preset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.ugf-donation form .amount-select .amount-preset span {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  height: 65px;
+  border-radius: 0;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 65px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.ugf-donation form .amount-select .amount-preset span:last-child {
+  margin-right: 0;
+}
+
+.ugf-donation form .amount-select .amount-preset span.active {
+  background: #dda12d;
+  color: #ffffff;
+  border-color: #dda12d;
+}
+
+.ugf-donation form .form-group {
+  margin-bottom: 25px;
+}
+
+.ugf-donation form .form-group .input-group .input-group-prepend {
+  background: transparent;
+  width: 70px;
+  border-radius: 0;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-right: 0;
+}
+
+.ugf-donation form .form-group .input-group .input-group-prepend .input-group-text {
+  background: transparent;
+  border: none;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0;
+}
+
+.ugf-donation form .form-group .input-group .form-control {
+  max-width: 200px;
+  background: transparent;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0 25px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.ugf-donation form .form-group .input-group .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ugf-donation form .form-group .input-group .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ugf-donation form .form-group .input-group .form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ugf-donation form .form-group .input-group .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ugf-donation form .form-group.donation-period {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding-top: 10px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.ugf-donation form .form-group.donation-period .custom-radio {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(50% - 15px);
+  flex: 0 0 calc(50% - 15px);
+}
+
+.ugf-donation form .form-group.donation-period .custom-radio .custom-control-input {
+  display: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.ugf-donation form .form-group.donation-period .custom-radio .custom-control-input:checked ~ .custom-control-label {
+  border-color: rgba(221, 161, 45, 0.5);
+}
+
+.ugf-donation form .form-group.donation-period .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background: #dda12d;
+}
+
+.ugf-donation form .form-group.donation-period .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: none;
+  content: url(../images/check-white.svg);
+}
+
+.ugf-donation form .form-group.donation-period .custom-radio .custom-control-label {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #b2becc;
+  padding: 20px 15px 20px 50px;
+  text-transform: capitalize;
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.ugf-donation form .form-group.donation-period .custom-radio .custom-control-label span {
+  display: block;
+  margin-top: 15px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.57;
+}
+
+.ugf-donation form .form-group.donation-period .custom-radio .custom-control-label:before {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
+  top: 22px;
+  left: 15px;
+}
+
+.ugf-donation form .form-group.donation-period .custom-radio .custom-control-label:after {
+  height: 15px;
+  width: 15px;
+  top: 22px;
+  left: 17px;
+  border-radius: 50%;
+}
+
+.ugf-donation form .form-group .select-input {
+  position: relative;
+}
+
+.ugf-donation form .form-group .select-input span {
+  position: absolute;
+  top: 27px;
+  right: 15px;
+  height: 0;
+  width: 0;
+  border-top: 6px solid rgba(255, 255, 255, 0.5);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
+
+.ugf-donation form .form-group .select-input .form-control {
+  padding-right: 0;
+  padding-left: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.ugf-donation form .form-group .select-input .form-control option {
+  color: #546274;
+}
+
+.ugf-donation form .form-group .form-control {
+  color: #ffffff;
+  background: transparent;
+  height: 60px;
+  border-radius: 0;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0 25px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.ugf-donation form .form-group .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ugf-donation form .form-group .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ugf-donation form .form-group .form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ugf-donation form .form-group .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ugf-donation form .btn {
+  height: 60px;
+  width: 100%;
+  background: #dda12d;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 25px;
+}
+
+.ugf-block-separator {
+  height: 85px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.ugf-block-separator:before {
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  content: '';
+  z-index: 1;
+}
+
+.ugf-block-separator p {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ffffff;
+  background: #1a110e;
+  position: relative;
+  z-index: 2;
+  padding: 0 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.alternet-payment .btn {
+  width: 100%;
+  height: 60px;
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #1c2437;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 5px 8px 0px #1a110e;
+  box-shadow: 0px 5px 8px 0px #1a110e;
+}
+
+.alternet-payment .btn + .btn {
+  margin-top: 25px;
+}
+
+.alternet-payment .btn img {
+  margin-left: 10px;
+}
+
+.donation-thumb-wrap.mt30,
+.donation-thumb-wrap-2.mt30 {
+  margin-top: 30px;
+}
+
+.donation-thumb-wrap .donation-thumb,
+.donation-thumb-wrap-2 .donation-thumb {
+  position: relative;
+}
+
+.donation-thumb-wrap .donation-thumb span,
+.donation-thumb-wrap-2 .donation-thumb span {
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.donation-thumb-wrap .donation-thumb .thumb,
+.donation-thumb-wrap-2 .donation-thumb .thumb {
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.donation-thumb-wrap-2.mt30 {
+  margin-top: -70px;
+}
+
+.ugf-dontation-wrap {
+  position: relative;
+}
+
+.block-item {
+  position: relative;
+}
+
+.block-item .donation-thumb-wrap,
+.block-item .donation-thumb-wrap-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.widget {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 50px 0;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.widget .social-link ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.widget .social-link ul li a {
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+.widget .social-link ul li a:hover {
+  color: #dda12d;
+}
+
+.widget .social-link ul li + li {
+  margin-left: 20px;
+}
+
+.widget .footer p {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.widget .footer p a:hover {
+  color: #dda12d;
+}
+
+.final-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 120px 15px;
+  text-align: center;
+}
+
+.final-content .icon {
+  margin-bottom: 20px;
+}
+
+.final-content h2 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #1c2437;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+
+.final-content p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #546274;
+  font-family: "Roboto", sans-serif;
+}
+
+.final-content .btn {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  height: 65px;
+  line-height: 65px;
+  width: 170px;
+  text-align: center;
+  border-radius: 10px;
+  background: #dda12d;
+  margin-top: 40px;
+  padding: 0;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media all and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media all and (max-width: 1199px) {
+  .ugf-donation h1 br {
+    display: none;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .ugf-donation h1 br {
+    display: block;
+  }
+  .block-item {
+    display: none;
+  }
+  .widget {
+    position: static;
+    display: block;
+    min-height: auto;
+    padding: 0 0 50px 0;
+  }
+  .widget .footer {
+    margin-top: 10px;
+  }
+  .widget .footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+  }
+  .widget .footer p a:hover {
+    color: #dda12d;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .ugf-donation h1 {
+    font-size: 3.2rem;
+  }
+  .ugf-donation form .amount-select .amount-preset span {
+    font-size: 1.4rem;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70px;
+    flex: 0 0 70px;
+    height: 50px;
+    line-height: 50px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .ugf-donation h1 br {
+    display: none;
+  }
+  .ugf-donation form .form-group.donation-period {
+    display: block;
+  }
+  .ugf-donation form .form-group.donation-period .custom-radio:first-child {
+    margin-bottom: 20px;
+  }
+}

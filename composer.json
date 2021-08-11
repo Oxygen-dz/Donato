@@ -1,0 +1,22 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "7.0",
+        "nesbot/carbon": "^2.51",
+        "filp/whoops": "^2.14",
+        "nette/database": "^3.1",
+        "verot/class.upload.php": "^2.1",
+        "madeorsk/nocsrf": "^1.1",
+        "pikanji/agent-plugin": "^1.0",
+        "twilio/sdk": "^6.27",
+        "sendgrid/sendgrid": "^7.9",
+        "league/omnipay": "^3.2",
+        "omnipay/stripe": "^3.1",
+        "omnipay/paypal": "^3.0",
+        "academe/omnipay-authorizenetapi": "^3.1",
+        "semyonchetvertnyh/omnipay-paysera": "^0.1.0",
+        "omnipay/mollie": "^5.4",
+        "amitkkhanchandani/faceplusplus": "dev-master",
+        "dompdf/dompdf": "^1.0",
+        "twig/twig": "^3.3"
+    }
+}

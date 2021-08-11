@@ -1,0 +1,14 @@
+Hi dear Oxygen user,
+in the lines below i will show you the right way to create a valide template for Donato.
+
+------------------------------------------------------------------------------------------
+
+Instructions :
+1 - Put the template name and template folder name in $FILES_SYSTEMS[...,'templates' => ['TemplateName' => 'templates/TemplateName' ] ] in config/filesystems.php
+2 - Go to config/config.php and put the same name of the template name in DEFAULT_TEMPLATE
+3 - Done.
+
+
+IMPORTANT NOTE: you have to respect the folders and files structures in order to run your templat.
+
+-- Author : REDWAN AOUNI -- <aouniradouan@gmail.com>

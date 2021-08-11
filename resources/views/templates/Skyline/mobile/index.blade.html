@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Donato - Donation System</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ TemplateResources }}/assets/assets/css/bootstrap.min.css">
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="{{ TemplateResources }}/assets/assets/css/line-awesome.min.css">
+    <!-- <link rel="stylesheet" href="../assets/css/owl.carousel.min.css" /> -->
+
+    <!-- Custom Css --> 
+    <link rel="stylesheet" type="text/css" href="{{ TemplateResources }}/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="{{ TemplateResources }}/assets/skyline-template-dz/css/donation-3.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+    <div class="ugf-wraper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="ugf-dontation-wrap">
+              <div class="ugf-donation">
+                <div class="logo">
+                  <a href="#"><img src="{{ TemplateResources }}/assets//images/logo.png" class="img-fluid" alt=""></a>
+                </div>
+                <h1>Oxygen 😍  <br> Donate to Help people breathe </h1>
+                <form method="POST">
+                  <div class="form-block">
+
+                    <div class="form-group country-select">
+                      <label for="inputCountry">Select Amount</label>
+                      <div class="select-input choose-country">
+                        <span></span>
+                          <select id="inputCountry" class="form-control" name="amount">
+                            <option value="10">$10</option>
+                            <option value="15">$15</option>
+                            <option value="20">$20</option>
+                            <option value="30">$30</option>
+                            <option value="35">$35</option>
+                            <option value="40">$40</option>
+                            <option value="50">$50</option>
+                            <option value="150">$100</option>
+                          </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group donation-period">
+                      <div class="custom-radio">
+                        <input type="radio" name="donation-type" value="Auto" class="custom-control-input" id="monthly" disabled="" required>
+                        <label class="custom-control-label" for="monthly">Monthly Donation <span>We will automaticcally receive your gift each month</span></label>
+                      </div>
+                      <div class="custom-radio">
+                        <input type="radio" name="donation-type" value="Onetime" class="custom-control-input" checked="" id="yearly" required>
+                        <label class="custom-control-label" for="yearly">One Time <span>Make this donation in honor or memory of someone</span></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-block">
+                    <h4 class="block-title">Billing Details</h4>
+
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="form-group">
+                          <label for="fName">Full Name</label>
+                          <input type="text" class="form-control" id="fName" placeholder="eg: Redwan Aouni" name="fullname">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group country-select">
+                      <label for="inputCountry">Country</label>
+                      <div class="select-input choose-country">
+                        <span></span>
+                          <select id="inputCountry" class="form-control" name="country">
+                            <option hidden="" selected="">Country</option>
+                            <option value="DZ">Algeria</option>
+                            <option value="UAE">United Arab Emirates</option>
+                            <option value="QA">Qatar</option>
+                          </select>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="form-group">
+                          <label for="inputPhone">Phone Number </label>
+                          <input type="text" class="form-control" id="inputPhone" placeholder="E.g. 0782 15 40 95" name="phone">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button class="btn" type="submit" name="PaymethodBTN">Send Your Donation &#10084;</button>
+                </form>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="widget">
+              <div class="social-link">
+              </div>
+              <div class="footer">
+                <p>Copyright &copy; 2021 <a href="#"> Redwan Aouni</a>. All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{{ TemplateResources }}/assets/assets/js/jquery.min.js"></script>
+    <script src="{{ TemplateResources }}/assets/assets/js/popper.min.js"></script>
+    <script src="{{ TemplateResources }}/assets/assets/js/bootstrap.min.js"></script>
+
+    <!-- <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/jarallax.js"></script> -->
+
+    <script src="{{ TemplateResources }}/assets/skyline-template-dz/js/custom.js"></script>
+  </body>
+
+</html>
