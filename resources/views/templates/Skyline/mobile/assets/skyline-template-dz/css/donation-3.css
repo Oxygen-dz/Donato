@@ -201,7 +201,6 @@
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-radius: 0;
   padding: 0 25px;
   font-size: 1.8rem;
   font-weight: 700;
@@ -273,16 +272,13 @@
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 0;
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
-  color: #b2becc;
   padding: 20px 15px 20px 50px;
   text-transform: capitalize;
   position: relative;
   top: 0;
   left: 0;
-  font-size: 1.6rem;
   font-weight: 700;
   color: #ffffff;
 }
