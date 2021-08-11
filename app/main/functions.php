@@ -441,7 +441,7 @@ function OX_AuthorizeNet_API_OmniPay($CardNumber, $ExpiryMonth, $ExpiryYear, $Cv
 	// Generate a unique merchant site transaction ID.
 	$transactionId = OX_RandomNumber(100000000,999999999);
 	
-	$response = $gateway->authorize([
+	$gateway->authorize([
 	    'amount' => $Amount,
 	    'currency' => $Currency,
 	    'transactionId' => $transactionId,
@@ -595,34 +595,6 @@ function OX_PaymentGetways_Status(){
 	}
 	return $response;
 }
-
-
-
-
-
-
-/**
- * Edahabia API
- *
- * This function For Pay with Eddahbia - ALGERIA
- * @author Redwan Aouni <aouniradouan@gmail.com>
- */
-// function OX_EddahabiaPay($OrderID, $Amount, $TransType = "BARIDI"){}
-
-
-
-
-
-
-/**
- * Incoming Call Response
- *
- * This function Respond to the incoming call [Used after v 1.0.1 ]
- * @author Redwan Aouni <aouniradouan@gmail.com>
- */
-// function OX_IncomingCallResponse(bool $Play = null, bool $Record = null, string $Say = "Welcome to Oxygen"){}
-
-
 
 
 

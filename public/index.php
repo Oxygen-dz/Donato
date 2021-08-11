@@ -13,7 +13,7 @@
 		$Donate_phone 			=	$_POST['phone'];
 
 		$DonateClass = new Oxygen\Donation\DonationClass;
-		$DonateClass->Donate($Donate_amount, $Donate_donation_type, $Donate_fullname, $Donate_country, $Donate_phone);
+		$DonateClass->Donate($Donate_amount, $Donate_fullname, $Donate_country, $Donate_phone);
 	}
 ?>
 

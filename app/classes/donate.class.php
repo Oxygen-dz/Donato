@@ -44,7 +44,7 @@ class DonationClass {
      * @author Redwan Aouni <aouniradouan@gmail.com>
      */
 
-    public function Donate($Amount, $Type, $UserFullname, $UserCountry, $UserPhone, $PayMethod = DEFAULT_PAYMENT_GETWAY){
+    public function Donate($Amount, $UserFullname, $UserCountry, $UserPhone){
 
         global $database;
 
@@ -63,7 +63,7 @@ class DonationClass {
     }
     
 
-    private function PaymentMethod (){}
+
 
 }
 

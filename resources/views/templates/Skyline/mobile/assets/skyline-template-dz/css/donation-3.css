@@ -201,6 +201,7 @@
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
+  border-radius: 0;
   padding: 0 25px;
   font-size: 1.8rem;
   font-weight: 700;
