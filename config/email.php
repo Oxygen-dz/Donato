@@ -17,10 +17,10 @@ define("DEFAULT_EMAIL_DRIVER", "SENDGRID");
 
 
 // Drivers API KEY
-define("SENDGRID_API_KEY", "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");
+define("SENDGRID_API_KEY", null);
 
 // FROM
-define("FROM_EMAIL", "aouniradouan@gmail.com");
+define("FROM_EMAIL", "system@oxygen.com");
 define("FROM_USER", "Oxygen Wallet");
 
 
